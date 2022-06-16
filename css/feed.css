@@ -456,3 +456,18 @@ div[view_id = "newDetailTitle"] {
 div[view_id = "newsList"] {
     overflow-y: auto !important;
 }
+div[view_id = "brandLogo"] > div{
+    color: #0097cc !important
+}
+
+.layoutWidget{
+    height: 100% !important;
+}
+div[view_id= "topbar"]{
+    width:calc(100% - 3px) !important;
+    border-right: none !important;
+    border-bottom: 2px solid #DADEE0 !important;
+}
+body{
+    height: 100% !important;
+}
