@@ -40,10 +40,8 @@ const NewsDetails = (() => {
         on: {
           onItemClick: function () {
             let url = $$('newsDetailReferenceUrl').config.referenceUrl;
-            window.open(
-              url || $$('newsDetailReferenceUrl').getValue() || '',
-              '_blank'
-            );
+            // PopupNewsReference.openPopupBrowser(url);
+            PopupNewsReference.openPopupNewsByUrl(url);
           },
         },
       },

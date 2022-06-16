@@ -463,11 +463,19 @@ div[view_id = "brandLogo"] > div{
 .layoutWidget{
     height: 100% !important;
 }
+
 div[view_id= "topbar"]{
     width:calc(100% - 3px) !important;
     border-right: none !important;
     border-bottom: 2px solid #DADEE0 !important;
 }
-body{
-    height: 100% !important;
+.cg-container {
+    border: none !important;
+}
+
+div[view_id="coingeckoMarquee"]{
+    margin-top: 10px !important;
+}
+div[view_id= "closePopupBtn"] {
+    float: right;
 }
